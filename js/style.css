@@ -1,4 +1,4 @@
-*/* {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,10 +16,11 @@ body {
     max-width: 1240px;
     width: 100%;
     margin: auto;
-
+    /* padding-left: 10px;
+    padding-right: 10px; */
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -37,7 +38,7 @@ nav{
     font-style: normal;
     font-weight: 400;
     line-height: 21px;
-
+    /* 150% */
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -523,4 +524,4 @@ nav{
 .footer_info_link {
     padding-top: 19px;
 }
-*/ 
+// 
